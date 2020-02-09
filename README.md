@@ -8,3 +8,10 @@
 
  After that, install speech recognition:
  pip instal SpeechRecognition
+
+ # Program Image
+ ![](speechRecognition.png)
+
+ # References 
+ Based on: https://www.youtube.com/watch?v=K_WbsFrPUCk
+ Article: https://realpython.com/python-speech-recognition/

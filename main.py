@@ -1,3 +1,6 @@
+#Recognizing speech requires audio input, and SpeechRecognition makes retrieving this input really easy.
+#Instead of having to build scripts for accessing microphones and processing audio files from scratch,
+#SpeechRecognition will have you up and running in just a few minutes.
 import speech_recognition as sr
 #initialize recognizer to recognize the audio
 r = sr.Recognizer()
@@ -5,7 +8,7 @@ lang = "en-US"
 def speak_and_recognize():
     #initialize source as sr.Microphone
     with sr.Microphone() as source:
-        print("Say something : ")
+        print("I am listening: ")
         #listen to the source and save it to audio
         audio = r.listen(source)
         try:
@@ -27,11 +30,11 @@ def choose_lang(name):
     elif name == "spanish":
         lang = "es-ES"
     else:
-        print("I could not recognize the selected language. I only understand english, lithaunian and russian")
+        print("I could not recognize the selected language.")
     
 option = ""
 while option != "0":
-    print("1. Speech Recognition")
+    print("1. Recognize the speech")
     print("2. Choose a language for speech recognition")
     print("0. Exit")
     option = input("Option: ")
