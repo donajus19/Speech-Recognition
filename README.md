@@ -10,7 +10,7 @@
  pip instal SpeechRecognition
 
  # Program Image
- ![](https://raw.githubusercontent.com/username/projectname/branch/path/to/speechRecognition.png)
+ ![](speechRecognition.png)
 
  # References 
  Based on: https://www.youtube.com/watch?v=K_WbsFrPUCk
